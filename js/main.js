@@ -1,5 +1,5 @@
 const API_KEY = "10150327-3e63ff662691ad227a4537a47";
-const URL = `https://pixabay.com/api/?key=${API_KEY}&per_page=20&q=`;
+const URL = `https://pixabay.com/api/?key=${API_KEY}&per_page=50&q=`;
 
 $(document).ready(() => {
   $('#search-form').on('submit', (e) => {
@@ -14,12 +14,9 @@ $(document).ready(() => {
 const findImage = (searchTerm) => {
   axios.get(`${URL + searchTerm}`)
     .then((res) => {
-      //console.log(res.data.hits);
-
       let imageData = res.data.hits;
       let output = '';
       $.each(imageData, (index, image) => {
-        console.log(image);
         output += `
           <div class="col-md-3">
             <div class="card-body text-center">
