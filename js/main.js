@@ -1,5 +1,5 @@
 const API_KEY = "10150327-3e63ff662691ad227a4537a47";
-const URL = `https://pixabay.com/api/?key=${API_KEY}&per_page=50&q=`;
+const URL = `https://pixabay.com/api/?key=${API_KEY}&per_page=100&q=`;
 
 $(document).ready(() => {
   $('#search-form').on('submit', (e) => {
