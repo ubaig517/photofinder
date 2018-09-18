@@ -1,0 +1,17 @@
+#search-container {
+  padding-top: 30px;
+}
+
+#images img {
+  width: 100%;
+}
+
+@media(min-width:960px){
+  #images .col-md-3 .card-body {
+  height: 390px;
+  }
+
+  #images .col-md-3 img {
+    height: 240px;
+  }
+}
