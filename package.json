@@ -1,0 +1,23 @@
+{
+  "name": "PhotoFinder_17Sep18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubaig517/photofinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubaig517/photofinder/issues"
+  },
+  "homepage": "https://ubaig517.github.io/photofinder",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
