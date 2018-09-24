@@ -6,12 +6,41 @@
   width: 100%;
 }
 
-@media(min-width:960px){
+a:hover {
+  cursor: pointer;
+}
+
+@media(min-width:960px) {
+
   #images .col-md-3 .card-body {
-  height: 390px;
+    height: 390px;
   }
 
   #images .col-md-3 img {
-    height: 240px;
+    height: 300px;
   }
+
+
+  img {
+    object-fit: cover;
+  }
+}
+
+@media(max-width: 770px) {
+  .jumbotron h4 {
+    font-size: 1rem;
+  }
+}
+
+
+/* IMAGE-PAGE CSS */
+
+#canvas {
+  margin: auto;
+  background: #ececec;
+  width: 100%;
+}
+
+.btn-disabled {
+  color: #222 !important;
 }
