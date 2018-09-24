@@ -5,7 +5,6 @@ document.querySelector('#search-form').addEventListener('submit', (e) => {
   let searchTerm = document.querySelector('#search-term').value;
 
   findImage(searchTerm);
-  console.log(searchTerm);
   e.preventDefault();
 });
 
